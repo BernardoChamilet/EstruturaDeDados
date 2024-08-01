@@ -1,0 +1,17 @@
+from arvoreBinEnc import *
+arvore = ArvBin(1)
+raiz = arvore.raiz
+#arvore.printar(raiz)
+arvore.inserirEsquerda(1,2)
+#arvore.printar(raiz)
+arvore.inserirDireita(1,3)
+#arvore.printar(raiz)
+arvore.inserirEsquerda(2,4)
+arvore.inserirDireita(2,5)
+#arvore.printar(raiz)
+arvore.remover(1)
+#arvore.printar(raiz)
+print(arvore.remover(5))
+arvore.printarPre(raiz)
+arvore.printarCentral(raiz)
+arvore.printarPos(raiz)

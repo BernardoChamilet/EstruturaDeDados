@@ -1,0 +1,15 @@
+from ABP import *
+arvore = ABP(500,"o")
+raiz = arvore.raiz
+arvore.inserir(400,"estou")
+arvore.inserir(300,"tu")
+arvore.inserir(300,"eu")
+arvore.inserir(450,"testando")
+arvore.inserir(600,"programa")
+arvore.inserir(550,"bendito")
+#arvore.excluir(450)
+#arvore.excluir(600)
+arvore.excluir(400)
+arvore.printarCentralEsq(raiz)
+print(arvore.localizar(500).info)
+print(arvore.localizar(300).info)
